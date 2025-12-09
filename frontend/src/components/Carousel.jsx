@@ -41,11 +41,11 @@ function Carousel() {
   const current = slides[index];
 
   return (
-    <div className="w-full flex justify-center mt-8 px-4">
-      <div className="relative w-full max-w-4xl overflow-hidden rounded-2xl shadow-lg">
+    <div className="w-full flex justify-center mt-6 mb-1">
+      <div className="relative w-full max-w-8xl overflow-hidden rounded-2xl shadow-lg">
         {/* Slide */}
         <div
-          className={`h-64 sm:h-80 md:h-96 bg-gradient-to-r ${current.bg} flex flex-col justify-center px-6 sm:px-10 text-white transition-all`}
+          className={`h-64 sm:h-80 md:h-80 bg-gradient-to-r ${current.bg} flex flex-col justify-center px-6 sm:px-10 text-white transition-all`}
         >
           <p className="text-sm sm:text-base uppercase tracking-wide text-white/70">
             Sriram Systems

@@ -1,14 +1,15 @@
 // src/pages/Home.jsx
 import React from "react";
 import Carousel from "../components/Carousel";
+import Products from "../pages/Products.jsx";
 
 function Home() {
 
     return (
         <>
-            <div className="flex flex-col md:flex-row items-center justify-center px-6 py-10 md:py-16 bg-gray-100">
+            <div className="flex flex-col md:flex-row items-center justify-center px-6 py-10 md:py-1">
                 {/* Left section: Text */}
-                <div className="max-w-xl text-center md:text-left space-y-6">
+                <div className="max-w-x text-center md:text-left space-y-3">
                     <p className="text-sm md:text-base text-black uppercase tracking-wide">
                         Computers • Laptops • Accessories
                     </p>
@@ -53,7 +54,7 @@ function Home() {
 
                 {/* Right section: simple gradient box instead of image (mobile friendly, no image file needed) */}
                 <div className="mt-10 md:mt-0 md:ml-10 w-full max-w-sm">
-                    <div className="w-full h-52 md:h-80 rounded-2xl shadow-lg bg-gradient-to-br from-gray-900 via-gray-800 to-blue-700 flex items-center justify-center">
+                    <div className="w-full h-52 md:h-80 rounded-2xl shadow-lg bg-blue-500 flex items-center justify-center">
                         <div className="text-center text-white px-4">
                             <p className="text-sm md:text-base text-gray-300">
                                 Custom PC & Laptop Solutions
@@ -77,6 +78,7 @@ function Home() {
                 </div>
             </div>
             <Carousel />
+            <Products/>
         </>
     );
 }
