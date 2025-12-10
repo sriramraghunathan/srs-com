@@ -2,6 +2,8 @@
 import React from "react";
 import Carousel from "../components/Carousel";
 import Products from "../pages/Products.jsx";
+import VideosRow from "../components/VideosRow";
+
 
 function Home() {
 
@@ -15,7 +17,7 @@ function Home() {
                     </p>
 
                     <h2 className="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-                        All INDIA SHIPPING{" "} 
+                        All INDIA SHIPPING{" "}
                         <span className="text-blue-500">Sriram Systems</span>
                     </h2>
 
@@ -77,8 +79,10 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <VideosRow />
+            <Products />
             <Carousel />
-            <Products/>
+
         </>
     );
 }

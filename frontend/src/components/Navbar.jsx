@@ -6,12 +6,12 @@ function Navbar() {
   const [open, setOpen] = useState(false); // state for mobile menu
 
   return (
-    <nav className="bg-gray-900 text-white p-4 sticky top-0 z-50 shadow-lg">
+    <nav className="bg-blue-600 text-white p-4 sticky top-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
 
         {/* Logo */}
         <h1 className="text-2xl font-bold tracking-wide">
-          <span className="text-blue-400">S</span>riram <span className="text-blue-400">S</span>ystems
+          Sriram System
         </h1>
 
         {/* Desktop Menu */}
