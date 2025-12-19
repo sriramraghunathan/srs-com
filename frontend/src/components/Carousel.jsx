@@ -48,10 +48,13 @@ function Carousel() {
           className={`h-64 sm:h-80 md:h-80 bg-gradient-to-r ${current.bg} flex flex-col justify-center px-6 sm:px-10 text-white transition-all`}
         >
           <p className="text-sm sm:text-base uppercase tracking-wide text-white/70">
-            Sriram Systems
+            SRS Smart Tech
+
+
           </p>
 
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-2">
+          <h2
+            className="text-2xl sm:text-3xl md:text-4xl font-bold mt-2">
             {current.title}
           </h2>
 
@@ -86,9 +89,8 @@ function Carousel() {
             <button
               key={i}
               onClick={() => setIndex(i)}
-              className={`h-1 w-2 rounded-full ${
-                i === index ? "bg-white" : "bg-white/40"
-              }`}
+              className={`h-1 w-2 rounded-full ${i === index ? "bg-white" : "bg-white/40"
+                }`}
             />
           ))}
         </div>

@@ -11,8 +11,7 @@ function Navbar() {
 
         {/* Logo */}
         <h1 className="text-2xl font-bold tracking-wide">
-          Sriram System
-        </h1>
+          SRS Smart Tech        </h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-lg">

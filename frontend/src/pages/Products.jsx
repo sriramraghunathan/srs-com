@@ -34,9 +34,6 @@ function Products() {
             </div>
             <div className="mt-4 flex items-center justify-between">
               <p className="text-blue-600 font-bold">{item.price}</p>
-              <button className="text-xs md:text-sm bg-blue-600 hover:bg-blue-700 text-white px-3 py-1 rounded-md">
-                Add to Cart
-              </button>
             </div>
           </div>
         ))}
