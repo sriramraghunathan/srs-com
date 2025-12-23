@@ -150,7 +150,7 @@ function Home() {
                 >
                     <motion.div
                         variants={popIn}
-                        className="w-full h-44 sm:h-52 md:h-80 rounded-2xl shadow-lg bg-blue-500 flex items-center justify-center p-4"
+                        className="w-full h-64 sm:h-52 md:h-80 rounded-2xl shadow-lg bg-blue-500 flex items-center justify-center p-4"
                     >
                         <div className="text-center text-white">
                             <p className="text-xs sm:text-sm text-gray-300">Custom PC & Laptop Solutions</p>
